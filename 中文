@@ -1,0 +1,76 @@
+# Deep Human Concepts: AI Interactions on Values, Emotions, and Lived Experience
+
+本仓库是 Yap Chan Chen 的“高分辨率 AI 互动分析”研究的补充，专注于收集和分析与大型语言模型（LLMs）在探讨**深层人类概念**方面的互动案例。
+
+这些概念包括但不限于：
+- 价值观（善意、公平、勇气）
+- 情感（痛苦、喜悦、同情、怨恨）
+- 个体经验与“体感”
+- 意识与自我认知
+- 伦理与道德困境
+- 对生命意义的哲学思考
+
+## 项目目标
+通过具体对话实例，展示 LLMs 在处理和讨论这些高度抽象、依赖人类主观体验和个体经历的概念时的能力与局限性。案例重点聚焦于以下问题：
+1. AI 能否捕捉到人类对这些概念的深层体验与语境？
+2. AI 在“体感”（lived experience）和语义理解上的表现差异。
+3. 当前 AI 技术在价值观对齐与伦理共识方面的不足。
+
+这些案例将为学界和工业界探索 AI 与人类认知差异提供重要的实证依据。
+
+---
+
+## 仓库结构
+```
+├── README.md                   # 项目概述
+├── Cases/                      # 互动案例文件夹
+│   ├── Case_Goodness.md        # 关于“善意”的案例
+│   ├── Case_Suffering.md       # 关于“痛苦”的案例
+│   ├── Case_Empathy.md         # 关于“同情”的案例
+│   └── Case_Lived_Experience.md # 关于“体感”的案例
+├── Media/                      # 媒体文件（截图、对话记录）
+│   ├── goodness_example.png
+│   └── suffering_example.png
+└── References/                 # 引用与参考
+    ├── bibliography.bib        # BibTeX 格式参考文献
+    └── links.md                # 网络资源链接
+```
+
+---
+
+## 快速浏览
+### 互动案例
+- [Case: Goodness and Its Infinite Power](Cases/Case_Goodness.md)
+- [Case: Understanding Human Suffering](Cases/Case_Suffering.md)
+- [Case: Empathy and Compassion](Cases/Case_Empathy.md)
+- [Case: Lived Experience and "体感"](Cases/Case_Lived_Experience.md)
+
+### 示例片段
+以下是一个关于“善意”的对话示例：
+> **Author:** 您认为善意的本质是什么？  
+> **AI:** 善意是一种积极的情感，通常与人类的利他行为相关联。  
+> **Author:** 善意的力量是否可以是“无限大”？  
+> **AI:** 善意的力量可以被视为一种哲学概念，但具体的“无限大”需要科学上的定义支持。
+
+分析：AI 在定义“善意”时表现出一定的逻辑性，但其对“无限大”这一哲学性表达缺乏深层次理解。
+
+---
+
+## 如何使用
+1. **浏览案例**：点击上方链接查看具体案例，内容包括对话记录和简要分析。
+2. **贡献案例**：如果您有类似的互动记录，请按照以下模板创建新案例文件，并提交 PR。
+3. **参考资源**：在 `References/` 文件夹中查看相关文献与研究资源。
+
+---
+
+## 引用格式
+如果您使用本仓库内容，请参考以下 BibTeX 格式：
+```bibtex
+@misc{deep_human_concepts,
+  author = {Yap Chan Chen},
+  title = {Deep Human Concepts: AI Interactions on Values, Emotions, and Lived Experience},
+  year = {2025},
+  howpublished = {\url{https://github.com/YapChanChen/Deep_Human_Concepts}},
+  note = {Version 1.0}
+}
+```
